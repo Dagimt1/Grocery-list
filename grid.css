@@ -1,0 +1,16 @@
+.container-1, .container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px
+}
+
+.container-1 {
+    margin-bottom: 50px;
+}
+.pantry, .freezer {
+    background-color: antiquewhite;
+    grid-column: span 2;
+    border: 2px solid;
+
+}
+

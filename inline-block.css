@@ -1,0 +1,50 @@
+.canned, .veggies {
+    display: inline-block;
+    background-color: rgb(190, 185, 185);
+    width: 200px;
+
+}
+
+.dry, .snacks {
+    display: inline-block;
+    background-color:  rgb(190, 185, 185);
+    width: 200px;
+    margin-left: 20px
+
+}
+.image {
+    display: inline;
+    margin-left: 20px;
+    
+}
+
+.header {
+    border: 2px solid black;
+    width: 420px;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+    
+}
+
+h2 {
+    margin: 3px;
+}
+
+.pantry {
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin-left: 20px
+}
+
+h1 {
+    padding-bottom: 30px;
+}
+.image {
+    display: inline-block;
+    vertical-align: top; 
+    margin-left: 20px;
+    width: 200px; 
+    height: auto; 
+}

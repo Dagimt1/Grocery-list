@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./table.css" />
+    <!--internal CSS-->
+    <style>
+      body {
+        font-family: Arial;
+        background-color: #b5c0d0;
+        color: #8785a2;
+      }
+      h1 {
+        text-align: center;
+        color: #605e76;
+      }
+
+      table {
+        width: 100%;
+        border-spacing: 15px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+
+  <!-- used table to structure the layout so there's no need to add sections-->
+  <body>
+    <header>
+      <h1>My Very Organized Grocery List</h1>
+    </header>
+
+    <main>
+      <table>
+        <tr>
+          <!--inline CSS-->
+          <td style="background-color: #f5e8dd" class="pantry" colspan="2">
+            <h2>PANTRY ITEMS</h2>
+          </td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="canned">
+            <h3>CANNED</h3>
+            <ul>
+              <li>Corn</li>
+              <li>Tuna</li>
+              <li>Grean beans</li>
+              <li>beans</li>
+            </ul>
+          </td>
+          <td class="dry">
+            <h3>DRY GOODS</h3>
+            <ul>
+              <li>Rice</li>
+              <li>Lentils</li>
+              <li>Oats</li>
+              <li>Pancake Mix</li>
+            </ul>
+          </td>
+          <td>
+            <h2></h2>
+            <img src="./images/pantry.avif" />
+          </td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td style="background-color: #f5e8dd" class="freezer" colspan="2">
+            <h2>FREEZER ITEMS</h2>
+          </td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td class="veggies">
+            <h3>VEGGIES</h3>
+            <ol>
+              <li>Broccoli</li>
+              <li>Carrots</li>
+              <li>Cauliflower</li>
+              <li>Bell Peppers</li>
+            </ol>
+          </td>
+          <td class="snacks">
+            <h3>SNACKS</h3>
+            <ol>
+              <li>Chicken</li>
+              <li>Hot pockets</li>
+              <li>Fries</li>
+              <li>Tator Tots</li>
+            </ol>
+          </td>
+          <td>
+            <h2></h2>
+            <img src="./images/freezer.avif" />
+          </td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>
